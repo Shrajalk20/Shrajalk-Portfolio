@@ -26,6 +26,13 @@ const skillsData = {
     { name: "DynamoDB", icon: "⚡" },
     { name: "Simple Queue Service", icon: "📬" },
   ],
+  "Tools": [
+    { name: "Git", icon: "/icons/Git_icon.png" },
+    { name: "GitHub", icon: "/icons/github.png" },
+    { name: "Jira", icon: "/icons/JIRA.jpeg" },
+    { name: "MongoDB", icon: "/icons/mongo.png" },
+    { name: "PostgreSQL", icon: "/icons/postgresql.png" },
+  ],
 };
 
 export const SkillsSection = () => {
