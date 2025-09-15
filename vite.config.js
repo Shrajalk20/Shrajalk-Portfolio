@@ -5,6 +5,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/Shrajalk-Portfolio/", // 👈 Add this line
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -12,3 +13,4 @@ export default defineConfig({
     },
   },
 });
+
