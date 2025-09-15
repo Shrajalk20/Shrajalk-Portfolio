@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react";
+import shrajalImage from '@/assets/shrajal.jpg';
 
 export const HeroSection = () => {
   return (
@@ -11,7 +12,7 @@ export const HeroSection = () => {
     
     {/* Image Section */}
     <img
-      src="/icons/shrajal.jpg"
+      src={shrajalImage}
       alt="Shrajal"
       className="w-72 h-82 object-cover rounded-lg shadow-md"
     />
